@@ -77,6 +77,7 @@ public class ManageServiceImpl implements ManageService {
     //根据一级category1Id获取二级分类
     @Override
     public List<BaseCategory2> getCategory2(Long category1Id) {
+        System.out.println("=========");
         QueryWrapper<BaseCategory2> baseCategory2QueryWrapper = new QueryWrapper<>();
         baseCategory2QueryWrapper.eq("category1_id",category1Id);
         List<BaseCategory2> baseCategory2List = baseCategory2Mapper.selectList(baseCategory2QueryWrapper);
