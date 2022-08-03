@@ -4,7 +4,11 @@ import com.atguigu.gmall.model.product.BaseCategory3;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
-
+/**
+ * @author renyongsheng
+ * @version 1.0
+ * @date 2022/8/3 16:32
+ */
 @Mapper
 public interface BaseCategory3Mapper extends BaseMapper<BaseCategory3> {
 }
